@@ -1,0 +1,131 @@
+/*
+=========================================================
+ELITERA Executive Portfolio
+Layout System
+Version : v0.3
+=========================================================
+*/
+
+/* ===========================
+   CONTAINER
+=========================== */
+
+.container{
+
+    width:min(1280px,90%);
+    margin-inline:auto;
+
+}
+
+/* ===========================
+   SECTIONS
+=========================== */
+
+section{
+
+    position:relative;
+    padding:100px 0;
+
+}
+
+/* ===========================
+   FLEX
+=========================== */
+
+.flex{
+
+    display:flex;
+
+}
+
+.flex-center{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+}
+
+.flex-between{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+}
+
+/* ===========================
+   GRID
+=========================== */
+
+.grid{
+
+    display:grid;
+
+}
+
+.grid-2{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:60px;
+
+}
+
+.grid-3{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:40px;
+
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+header{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    z-index:999;
+
+}
+
+/* ===========================
+   MAIN
+=========================== */
+
+main{
+
+    overflow:hidden;
+
+}
+
+/* ===========================
+   HERO
+=========================== */
+
+.hero{
+
+    min-height:100vh;
+
+    display:flex;
+
+    align-items:center;
+
+}
