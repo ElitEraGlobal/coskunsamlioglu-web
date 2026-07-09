@@ -15,7 +15,7 @@
 - [x] Projects
 - [ ] Expertise
 - [x] Contact
-- [ ] Footer
+- [x] Footer
 
 ---
 
