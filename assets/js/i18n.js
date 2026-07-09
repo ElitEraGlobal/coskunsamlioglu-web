@@ -32,7 +32,7 @@ Version: 1.0
     // ===========================
 
     /**
-     * Load language file
+     * Load language file with caching
      * @param {string} lang - Language code
      * @returns {Promise}
      */
@@ -43,7 +43,9 @@ Version: 1.0
         }
 
         try {
-            const response = await fetch(`${I18N_CONFIG.languagesPath}${lang}.json`);
+            const response = await fetch(`${I18N_CONFIG.languagesPath}${lang}.json`, {
+                headers: { 'Accept': 'application/json' }
+            });
             if (!response.ok) {
                 throw new Error(`Failed to load language file: ${lang}.json`);
             }

@@ -1,0 +1,59 @@
+/*
+=========================================================
+ELITERA Executive Portfolio
+Language Switcher Styles
+Version: 1.0
+=========================================================
+*/
+
+.language-switcher {
+    display: flex;
+    gap: var(--space-10);
+    align-items: center;
+    margin-left: auto;
+    margin-right: var(--space-20);
+}
+
+.language-switcher button {
+    background: none;
+    border: none;
+    padding: var(--space-5) var(--space-10);
+    font-size: var(--fs-14);
+    font-weight: var(--fw500);
+    color: var(--text);
+    cursor: pointer;
+    transition: color var(--transition);
+    font-family: var(--font-body);
+}
+
+.language-switcher button:hover,
+.language-switcher button:focus-visible {
+    color: var(--gold);
+    outline: none;
+}
+
+.language-switcher button:focus-visible {
+    outline: 2px solid var(--gold);
+    outline-offset: 2px;
+}
+
+.language-switcher button.active {
+    color: var(--gold);
+    font-weight: var(--fw600);
+}
+
+.language-switcher-separator {
+    color: var(--border);
+    font-weight: var(--fw300);
+}
+
+@media (max-width: 767px) {
+    .language-switcher {
+        margin-right: var(--space-10);
+    }
+
+    .language-switcher button {
+        padding: var(--space-5) var(--space-8);
+        font-size: var(--fs-12);
+    }
+}

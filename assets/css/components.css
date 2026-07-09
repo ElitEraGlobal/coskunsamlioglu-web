@@ -4,32 +4,5 @@ Components
 =========================================================
 */
 
-.btn{
-
-    display:inline-flex;
-
-    align-items:center;
-
-    justify-content:center;
-
-    padding:15px 35px;
-
-    background:var(--gold);
-
-    color:white;
-
-    border-radius:50px;
-
-    transition:var(--transition);
-
-    font-weight:600;
-
-}
-
-.btn:hover{
-
-    transform:translateY(-3px);
-
-    box-shadow:var(--shadow-md);
-
-}
+/* Button styles are defined in style.css and responsive.css */
+/* This file is reserved for future component definitions */

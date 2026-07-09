@@ -1,9 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Coşkun Şamlıoğlu | Executive Investment Strategist</title>
+<meta name="description" content="ELITERA Executive Investment Platform. Strategic investment advisory, commercial real estate, and international business development by Coşkun Şamlıoğlu.">
+<meta name="keywords" content="executive investment, strategic advisory, commercial real estate, business development, international partnerships">
+<meta name="author" content="Coşkun Şamlıoğlu">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://coskunsamlioglu.com.tr/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Coşkun Şamlıoğlu | Executive Investment Strategist">
+<meta property="og:description" content="ELITERA Executive Investment Platform. Strategic investment advisory, commercial real estate, and international business development.">
+<meta property="og:url" content="https://coskunsamlioglu.com.tr/">
+<meta property="og:image" content="https://coskunsamlioglu.com.tr/assets/images/og-image.png">
+<meta property="og:site_name" content="ELITERA">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Coşkun Şamlıoğlu | Executive Investment Strategist">
+<meta name="twitter:description" content="ELITERA Executive Investment Platform. Strategic investment advisory, commercial real estate, and international business development.">
+<meta name="twitter:image" content="https://coskunsamlioglu.com.tr/assets/images/og-image.png">
+<link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
@@ -15,6 +30,54 @@
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
 <link rel="stylesheet" href="assets/css/animations.css">
+<style>
+.language-switcher {
+    display: flex;
+    gap: var(--space-10);
+    align-items: center;
+    margin-left: auto;
+    margin-right: var(--space-20);
+}
+
+.language-switcher button {
+    background: none;
+    border: none;
+    padding: var(--space-5) var(--space-10);
+    font-size: var(--fs-14);
+    font-weight: var(--fw500);
+    color: var(--text);
+    cursor: pointer;
+    transition: color var(--transition);
+    font-family: var(--font-body);
+}
+
+.language-switcher button:hover,
+.language-switcher button:focus-visible {
+    color: var(--gold);
+    outline: none;
+}
+
+.language-switcher button.active {
+    color: var(--gold);
+    font-weight: var(--fw600);
+}
+
+.language-switcher-separator {
+    color: var(--border);
+    font-weight: var(--fw300);
+}
+
+@media (max-width: 767px) {
+    .language-switcher {
+        margin-right: var(--space-10);
+    }
+
+    .language-switcher button {
+        padding: var(--space-5) var(--space-8);
+        font-size: var(--fs-12);
+    }
+}
+</style>
 </head>
 <body>
 
@@ -26,16 +89,41 @@
 
 <nav>
 <ul class="menu">
-<li><a href="#home">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#solutions">Solutions</a></li>
-<li><a href="#elitera">ELITERA</a></li>
-<li><a href="#projects">Projects</a></li>
-<li><a href="#contact">Contact</a></li>
+<li><a href="#home" data-i18n="header.home">Home</a></li>
+<li><a href="#about" data-i18n="header.about">About</a></li>
+<li><a href="#solutions" data-i18n="header.solutions">Solutions</a></li>
+<li><a href="#elitera" data-i18n="header.elitera">ELITERA</a></li>
+<li><a href="#projects" data-i18n="header.projects">Projects</a></li>
+<li><a href="#contact" data-i18n="header.contact">Contact</a></li>
 </ul>
 </nav>
+
+<div class="language-switcher" role="group" aria-label="Language selection">
+<button class="language-btn active" data-lang="en" aria-label="Switch to English">EN</button>
+<span class="language-switcher-separator" aria-hidden="true">|</span>
+<button class="language-btn" data-lang="tr" aria-label="Türkçeye geç">TR</button>
+</div>
+
+<button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+<span></span>
+<span></span>
+<span></span>
+</button>
 </div>
 </header>
+
+<div class="menu-overlay"></div>
+
+<nav class="mobile-menu" aria-label="Mobile navigation">
+<ul>
+<li><a href="#home" data-i18n="header.home">Home</a></li>
+<li><a href="#about" data-i18n="header.about">About</a></li>
+<li><a href="#solutions" data-i18n="header.solutions">Solutions</a></li>
+<li><a href="#elitera" data-i18n="header.elitera">ELITERA</a></li>
+<li><a href="#projects" data-i18n="header.projects">Projects</a></li>
+<li><a href="#contact" data-i18n="header.contact">Contact</a></li>
+</ul>
+</nav>
 
 <main>
 
@@ -43,32 +131,34 @@
 <div class="container hero-content">
 
 <div class="hero-left">
-<span class="hero-tag">Founder of ELITERA</span>
+<span class="hero-tag" data-i18n="hero.tag">Founder of ELITERA</span>
 
-<h1>Connecting<br>Capital with<br>Opportunity.</h1>
+<h1 data-i18n-html="hero.title">Connecting<br>Capital with<br>Opportunity.</h1>
 
 <div class="hero-services">
-<span>Strategic Investments</span>
-<span>Commercial Real Estate</span>
-<span>Business Development</span>
-<span>Cross‑Border Partnerships</span>
+<span data-i18n="hero.service1">Strategic Investments</span>
+<span data-i18n="hero.service2">Commercial Real Estate</span>
+<span data-i18n="hero.service3">Business Development</span>
+<span data-i18n="hero.service4">Cross‑Border Partnerships</span>
 </div>
 
-<p>
+<p data-i18n="hero.description">
 Independent Executive Investment Strategist connecting domestic investors,
 Gulf investors, Middle East investors, European investors and international
 business partners through strategic investment advisory and commercial real estate.
 </p>
 
-<a class="btn" href="#contact">Schedule a Meeting</a>
-<a class="btn btn-outline" href="#elitera">Discover ELITERA</a>
+<a class="btn" href="#contact" data-i18n="hero.cta1">Schedule a Meeting</a>
+<a class="btn btn-outline" href="#elitera" data-i18n="hero.cta2">Discover ELITERA</a>
 
 </div>
 
 <div class="hero-right">
-<div class="hero-image">
-<img src="assets/images/profile/coskun-samlioglu.png" alt="Coşkun Şamlıoğlu">
-</div>
+    <div class="hero-image">
+        <img
+            src="assets/images/profile/coskun-samlioglu.webp"
+            alt="Coşkun Şamlıoğlu">
+    </div>
 </div>
 
 </div>
@@ -76,8 +166,8 @@ business partners through strategic investment advisory and commercial real esta
 
 <section id="about" class="section">
 <div class="container">
-<h2>About</h2>
-<p>
+<h2 data-i18n="about.heading">About</h2>
+<p data-i18n="about.description">
 I help investors, business owners and institutions identify, evaluate and execute
 high-value opportunities. My work combines commercial real estate, strategic
 investments, business development and international cooperation under a single,
@@ -88,75 +178,385 @@ independent advisory model.
 
 <section id="solutions" class="section">
 <div class="container">
-<h2>What We Solve</h2>
+<h2 data-i18n="solutions.heading">What We Solve</h2>
 
 <div class="solutions-grid">
 
 <article class="solution-card">
-<h3>Strategic Investments</h3>
-<p>Identifying scalable investment opportunities with long-term value.</p>
+<h3 data-i18n="solutions.card1.title">Strategic Investments</h3>
+<p data-i18n="solutions.card1.description">Identifying scalable investment opportunities with long-term value.</p>
 </article>
 
 <article class="solution-card">
-<h3>Commercial Real Estate</h3>
-<p>Industrial, logistics, hospitality and mixed-use investment advisory.</p>
+<h3 data-i18n="solutions.card2.title">Commercial Real Estate</h3>
+<p data-i18n="solutions.card2.description">Industrial, logistics, hospitality and mixed-use investment advisory.</p>
 </article>
 
 <article class="solution-card">
-<h3>Business Development</h3>
-<p>Creating partnerships that accelerate growth and market expansion.</p>
+<h3 data-i18n="solutions.card3.title">Business Development</h3>
+<p data-i18n="solutions.card3.description">Creating partnerships that accelerate growth and market expansion.</p>
 </article>
 
 <article class="solution-card">
-<h3>Investment Matching</h3>
-<p>Connecting qualified investors with qualified opportunities.</p>
+<h3 data-i18n="solutions.card4.title">Investment Matching</h3>
+<p data-i18n="solutions.card4.description">Connecting qualified investors with qualified opportunities.</p>
 </article>
 
 <article class="solution-card">
-<h3>International Trade</h3>
-<p>Supporting cross-border commercial relationships and expansion.</p>
+<h3 data-i18n="solutions.card5.title">International Trade</h3>
+<p data-i18n="solutions.card5.description">Supporting cross-border commercial relationships and expansion.</p>
 </article>
 
 <article class="solution-card">
-<h3>Corporate Advisory</h3>
-<p>Strategic guidance across finance, legal coordination and project execution.</p>
+<h3 data-i18n="solutions.card6.title">Corporate Advisory</h3>
+<p data-i18n="solutions.card6.description">Strategic guidance across finance, legal coordination and project execution.</p>
 </article>
 
 </div>
 </div>
 </section>
 
-
-<section id="network" class="section network-section">
+<section id="expertise" class="section">
 <div class="container">
 <div class="section-intro">
-<span class="hero-tag">Network &amp; Ecosystem</span>
-<h2>Trusted Network</h2>
-<p>Building trusted relationships across global markets, strategic investments, commercial real estate and international business development.</p>
+<span class="hero-tag" data-i18n="expertise.tag">Core Competencies</span>
+<h2 data-i18n="expertise.heading">Executive Expertise</h2>
+<p data-i18n="expertise.description">Deep experience across strategic investments, commercial real estate, international business development and executive advisory.</p>
 </div>
-<div class="logo-grid">
-<div class="logo-card">ELITERA</div>
-<div class="logo-card">CENTURY 21</div>
-<div class="logo-card">JLL</div>
-<div class="logo-card">CBRE</div>
-<div class="logo-card">COLLIERS</div>
-<div class="logo-card">CUSHMAN &amp; WAKEFIELD</div>
-<div class="logo-card">SAVILLS</div>
-<div class="logo-card">KNIGHT FRANK</div>
-<div class="logo-card">DELOITTE</div>
-<div class="logo-card">PwC</div>
-<div class="logo-card">EY</div>
-<div class="logo-card">KPMG</div>
-</div>
-<div class="network-note">
-<p><strong>Experience Across Markets &amp; Institutions</strong> — The organizations above represent industries and market ecosystems relevant to my professional network and experience. They are not presented as clients or commercial endorsements.</p>
+
+<div class="solutions-grid">
+
+<article class="solution-card">
+<h3 data-i18n="expertise.card1.title">Executive Leadership</h3>
+<p data-i18n="expertise.card1.description">Strategic vision and decision-making across complex investments, partnerships and institutional relationships.</p>
+</article>
+
+<article class="solution-card">
+<h3 data-i18n="expertise.card2.title">Systems Engineering</h3>
+<p data-i18n="expertise.card2.description">Building integrated platforms and operational frameworks that connect capital, assets and opportunities.</p>
+</article>
+
+<article class="solution-card">
+<h3 data-i18n="expertise.card3.title">Industrial Transformation</h3>
+<p data-i18n="expertise.card3.description">Strategic advisory for industrial modernization, logistics optimization and supply chain development.</p>
+</article>
+
+<article class="solution-card">
+<h3 data-i18n="expertise.card4.title">Strategic Investments</h3>
+<p data-i18n="expertise.card4.description">Identifying, evaluating and executing high-value investment opportunities with sustainable returns.</p>
+</article>
+
+<article class="solution-card">
+<h3 data-i18n="expertise.card5.title">Commercial Real Estate</h3>
+<p data-i18n="expertise.card5.description">Advisory across industrial, logistics, hospitality and mixed-use asset strategies and valuations.</p>
+</article>
+
+<article class="solution-card">
+<h3 data-i18n="expertise.card6.title">International Business Development</h3>
+<p data-i18n="expertise.card6.description">Cross-border partnerships, market expansion and international relationship building for institutional clients.</p>
+</article>
+
 </div>
 </div>
 </section>
 
+<section id="network" class="section network-section"><div class="container"><div class="section-intro"><span class="hero-tag" data-i18n="network.tag">Network &amp; Ecosystem</span><h2 data-i18n="network.heading">Trusted Network</h2><p data-i18n="network.description">Building trusted relationships across global markets, strategic investments, commercial real estate and international business development.</p></div><div class="logo-grid"><div class="logo-card"><img src="assets/images/network/01.svg" alt="Network Logo 1" loading="lazy"></div><div class="logo-card"><img src="assets/images/network/02.svg" alt="Network Logo 2" loading="lazy"></div><div class="logo-card"><img src="assets/images/network/03.svg" alt="Network Logo 3" loading="lazy"></div><div class="logo-card"><img src="assets/images/network/04.svg" alt="Network Logo 4" loading="lazy"></div><div class="logo-card"><img src="assets/images/network/05.svg" alt="Network Logo 5" loading="lazy"></div><div class="logo-card"><img src="assets/images/network/06.svg" alt="Network Logo 6" loading="lazy"></div><div class="logo-card"><img src="assets/images/network/07.svg" alt="Network Logo 7" loading="lazy"></div><div class="logo-card"><img src="assets/images/network/08.svg" alt="Network Logo 8" loading="lazy"></div><div class="logo-card"><img src="assets/images/network/09.svg" alt="Network Logo 9" loading="lazy"></div><div class="logo-card"><img src="assets/images/network/10.svg" alt="Network Logo 10" loading="lazy"></div><div class="logo-card"><img src="assets/images/network/11.svg" alt="Network Logo 11" loading="lazy"></div><div class="logo-card"><img src="assets/images/network/12.svg" alt="Network Logo 12" loading="lazy"></div><div class="logo-card"><img src="assets/images/network/13.svg" alt="Network Logo 13" loading="lazy"></div><div class="logo-card"><img src="assets/images/network/14.svg" alt="Network Logo 14" loading="lazy"></div><div class="logo-card"><img src="assets/images/network/15.svg" alt="Network Logo 15" loading="lazy"></div><div class="logo-card"><img src="assets/images/network/16.svg" alt="Network Logo 16" loading="lazy"></div><div class="logo-card"><img src="assets/images/network/17.svg" alt="Network Logo 17" loading="lazy"></div><div class="logo-card"><img src="assets/images/network/18.svg" alt="Network Logo 18" loading="lazy"></div><div class="logo-card"><img src="assets/images/network/19.svg" alt="Network Logo 19" loading="lazy"></div><div class="logo-card"><img src="assets/images/network/20.svg" alt="Network Logo 20" loading="lazy"></div><div class="logo-card"><img src="assets/images/network/21.svg" alt="Network Logo 21" loading="lazy"></div><div class="logo-card"><img src="assets/images/network/22.svg" alt="Network Logo 22" loading="lazy"></div><div class="logo-card"><img src="assets/images/network/23.svg" alt="Network Logo 23" loading="lazy"></div><div class="logo-card"><img src="assets/images/network/24.svg" alt="Network Logo 24" loading="lazy"></div><div class="logo-card"><img src="assets/images/network/25.svg" alt="Network Logo 25" loading="lazy"></div><div class="logo-card"><img src="assets/images/network/26.svg" alt="Network Logo 26" loading="lazy"></div><div class="logo-card"><img src="assets/images/network/27.svg" alt="Network Logo 27" loading="lazy"></div></div><div class="network-note"><p data-i18n-html="network.note"><strong>Experience Across Markets &amp; Institutions</strong> — Logos represent industries and market ecosystems relevant to my professional network and experience. They are not presented as clients or endorsements.</p></div></div></section>
+
+<section id="elitera" class="section elitera-section" aria-labelledby="elitera-title">
+<div class="container">
+
+<div class="section-intro">
+<span class="hero-tag" data-i18n="elitera.tag">The ELITERA Platform</span>
+<h2 id="elitera-title" data-i18n-html="elitera.heading">Beyond Brokerage.<br>Building Strategic Value.</h2>
+<p data-i18n="elitera.description">
+ELITERA is an independent executive investment platform connecting capital,
+strategic assets, commercial real estate and international business opportunities
+through trusted partnerships.
+</p>
+</div>
+
+<div class="elitera-layout">
+
+<div class="elitera-copy">
+<h3 data-i18n="elitera.differenceHeading">What Makes ELITERA Different?</h3>
+<p data-i18n="elitera.differencePara1">
+ELITERA is not a traditional brokerage. It is a strategic investment ecosystem
+designed to connect qualified investors with qualified opportunities through
+independent insight, trusted relationships and disciplined execution.
+</p>
+<p data-i18n="elitera.differencePara2">
+By bringing capital, assets and business expertise into one focused platform,
+ELITERA creates long-term strategic value beyond the scope of a conventional
+transaction.
+</p>
+<a class="btn" href="#contact" data-i18n="elitera.cta">Start a Conversation</a>
+</div>
+
+<div class="elitera-features">
+<article class="solution-card">
+<h3 data-i18n="elitera.feature1.title">Investment Advisory</h3>
+<p data-i18n="elitera.feature1.description">Independent guidance for evaluating and executing high-value investment opportunities.</p>
+</article>
+
+<article class="solution-card">
+<h3 data-i18n="elitera.feature2.title">Commercial Real Estate</h3>
+<p data-i18n="elitera.feature2.description">Strategic access to industrial, logistics, hospitality and mixed-use assets.</p>
+</article>
+
+<article class="solution-card">
+<h3 data-i18n="elitera.feature3.title">Business Development</h3>
+<p data-i18n="elitera.feature3.description">Partnership-led strategies that support sustainable growth and market expansion.</p>
+</article>
+
+<article class="solution-card">
+<h3 data-i18n="elitera.feature4.title">International Partnerships</h3>
+<p data-i18n="elitera.feature4.description">Trusted cross-border relationships connecting investors, institutions and opportunities.</p>
+</article>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="projects" class="section projects-section" aria-labelledby="projects-title">
+<div class="container">
+
+<div class="section-intro">
+<span class="hero-tag" data-i18n="projects.tag">Selected Initiatives</span>
+<h2 id="projects-title" data-i18n="projects.heading">Strategic Projects</h2>
+<p data-i18n="projects.description">
+Representative initiatives that demonstrate ELITERA's strategic investment vision
+across commercial real estate, industrial development, logistics and international
+partnerships.
+</p>
+</div>
+
+<div class="solutions-grid projects-grid">
+
+<article class="solution-card">
+<span class="project-category" data-i18n="projects.project1.category">Commercial Real Estate</span>
+<h3 data-i18n="projects.project1.title">High-Value Asset Strategies</h3>
+<p data-i18n="projects.project1.description">Strategic evaluation and positioning of commercial assets designed for sustainable, long-term value.</p>
+<button class="btn project-link" type="button" disabled data-i18n="projects.project1.cta">Learn More</button>
+</article>
+
+<article class="solution-card">
+<span class="project-category" data-i18n="projects.project2.category">Industrial Investments</span>
+<h3 data-i18n="projects.project2.title">Industry-Led Growth Platforms</h3>
+<p data-i18n="projects.project2.description">Investment opportunities connecting industrial capacity, operational strength and scalable growth.</p>
+<button class="btn project-link" type="button" disabled data-i18n="projects.project2.cta">Learn More</button>
+</article>
+
+<article class="solution-card">
+<span class="project-category" data-i18n="projects.project3.category">Cold Chain &amp; Logistics</span>
+<h3 data-i18n="projects.project3.title">Integrated Supply Infrastructure</h3>
+<p data-i18n="projects.project3.description">Strategic infrastructure initiatives supporting resilient logistics, storage and distribution networks.</p>
+<button class="btn project-link" type="button" disabled data-i18n="projects.project3.cta">Learn More</button>
+</article>
+
+<article class="solution-card">
+<span class="project-category" data-i18n="projects.project4.category">Business Development</span>
+<h3 data-i18n="projects.project4.title">Market Expansion &amp; Alliances</h3>
+<p data-i18n="projects.project4.description">Executive-led growth initiatives built around new markets, commercial partnerships and shared value.</p>
+<button class="btn project-link" type="button" disabled data-i18n="projects.project4.cta">Learn More</button>
+</article>
+
+<article class="solution-card">
+<span class="project-category" data-i18n="projects.project5.category">International Partnerships</span>
+<h3 data-i18n="projects.project5.title">Cross-Border Opportunity Networks</h3>
+<p data-i18n="projects.project5.description">Trusted international relationships connecting qualified capital with credible regional opportunities.</p>
+<button class="btn project-link" type="button" disabled data-i18n="projects.project5.cta">Learn More</button>
+</article>
+
+<article class="solution-card">
+<span class="project-category" data-i18n="projects.project6.category">Strategic Advisory</span>
+<h3 data-i18n="projects.project6.title">Executive Decision Support</h3>
+<p data-i18n="projects.project6.description">Independent strategic guidance for complex investments, partnerships and high-value business decisions.</p>
+<button class="btn project-link" type="button" disabled data-i18n="projects.project6.cta">Learn More</button>
+</article>
+
+</div>
+</div>
+</section>
+
+<section id="contact" class="section contact-section" aria-labelledby="contact-title">
+<div class="container contact-layout">
+
+<div class="contact-copy">
+<span class="hero-tag" data-i18n="contact.tag">Executive Contact</span>
+<h2 id="contact-title" data-i18n-html="contact.heading">Let's Build Strategic<br>Value Together</h2>
+<p data-i18n="contact.description">
+ELITERA welcomes confidential discussions regarding strategic investments,
+commercial real estate, international partnerships and business development.
+Every conversation is approached with discretion, clarity and an executive perspective.
+</p>
+
+<dl class="contact-details">
+<div>
+<dt data-i18n="contact.emailLabel">Executive Email</dt>
+<dd>
+<a href="mailto:coskun@coskunsamlioglu.com.tr"
+   aria-label="Send an email to ELITERA">
+coskun@coskunsamlioglu.com.tr
+</a>
+</dd>
+</div>
+<div>
+<dt data-i18n="contact.phoneLabel">Direct Phone</dt>
+<dd>
+<a href="tel:+905336939380"
+   aria-label="Call ELITERA at +90 533 693 93 80">
++90 533 693 93 80
+</a>
+</dd>
+</div>
+<div>
+<dt data-i18n="contact.linkedinLabel">LinkedIn Profile</dt>
+<dd>
+<span data-i18n="contact.linkedinName">Coşkun Şamlıoğlu</span><br>
+<a href="https://www.linkedin.com/in/coskunsamlioglu/"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="View Coşkun Şamlıoğlu's LinkedIn profile; opens in a new tab"
+   data-i18n="contact.linkedinCta">
+View Profile →
+</a>
+</dd>
+</div>
+<div>
+<dt data-i18n="contact.whatsappLabel">Business WhatsApp</dt>
+<dd>
+<a href="https://wa.me/905456654319"
+   aria-label="Message ELITERA on WhatsApp at +90 545 665 43 19">
++90 545 665 43 19
+</a>
+</dd>
+</div>
+<div>
+<dt data-i18n="contact.locationLabel">Headquarters</dt>
+<dd data-i18n="contact.location">Türkiye</dd>
+</div>
+</dl>
+</div>
+
+<article class="solution-card contact-card">
+<span class="hero-tag" data-i18n="contact.cardTag">Private &amp; Confidential</span>
+<h3 data-i18n="contact.cardHeading">Schedule a Strategic Meeting</h3>
+<ul class="contact-topics">
+<li data-i18n="contact.cardTopic1">Executive Consultation</li>
+<li data-i18n="contact.cardTopic2">Investment Opportunities</li>
+<li data-i18n="contact.cardTopic3">Cross-border Partnerships</li>
+</ul>
+<a class="btn"
+   href="mailto:coskun@coskunsamlioglu.com.tr"
+   aria-label="Schedule a strategic meeting by email"
+   data-i18n="contact.cardCta">
+Schedule a Strategic Meeting
+</a>
+</article>
+
+</div>
+</section>
 
 </main>
 
+<footer class="site-footer">
+<div class="container">
+
+<div class="footer-grid">
+
+<div class="footer-brand">
+<a class="footer-brand-mark" href="#home" aria-label="ELITERA — return to home" data-i18n="footer.brand">ELITERA</a>
+<p class="footer-tagline" data-i18n="footer.tagline">Building Strategic Value Beyond Brokerage.</p>
+<p class="footer-description" data-i18n="footer.description1">
+ELITERA is the executive investment and strategic advisory brand founded by
+Coşkun Şamlıoğlu.
+</p>
+<p class="footer-description" data-i18n="footer.description2">
+The brand focuses on commercial real estate, strategic investments,
+international partnerships and business development.
+</p>
+
+<div class="footer-founder">
+<span class="footer-label" data-i18n="footer.founderLabel">Founder</span>
+<strong data-i18n="footer.founderName">Coşkun Şamlıoğlu</strong>
+<span data-i18n="footer.founderTitle">Executive Investment Strategist</span>
+</div>
+</div>
+
+<nav class="footer-navigation" aria-label="Footer navigation">
+<h2 class="footer-title" data-i18n="footer.navTitle">Navigation</h2>
+<ul>
+<li><a href="#home" data-i18n="header.home">Home</a></li>
+<li><a href="#about" data-i18n="header.about">About</a></li>
+<li><a href="#solutions" data-i18n="header.solutions">Solutions</a></li>
+<li><a href="#elitera" data-i18n="header.elitera">ELITERA</a></li>
+<li><a href="#projects" data-i18n="header.projects">Projects</a></li>
+<li><a href="#contact" data-i18n="header.contact">Contact</a></li>
+</ul>
+</nav>
+
+<address class="footer-executive-contact">
+<h2 class="footer-title" data-i18n="footer.contactTitle">Executive Contact</h2>
+<dl class="footer-contact">
+<div>
+<dt data-i18n="footer.emailLabel">Executive Email</dt>
+<dd>
+<a href="mailto:coskun@coskunsamlioglu.com.tr"
+   aria-label="Send an email to ELITERA">
+coskun@coskunsamlioglu.com.tr
+</a>
+</dd>
+</div>
+<div>
+<dt data-i18n="footer.whatsappLabel">Business WhatsApp</dt>
+<dd>
+<a href="https://wa.me/905456654319"
+   aria-label="Message ELITERA on WhatsApp at +90 545 665 43 19">
++90 545 665 43 19
+</a>
+</dd>
+</div>
+<div>
+<dt data-i18n="footer.phoneLabel">Direct Phone</dt>
+<dd>
+<a href="tel:+905336939380"
+   aria-label="Call ELITERA at +90 533 693 93 80">
++90 533 693 93 80
+</a>
+</dd>
+</div>
+<div>
+<dt data-i18n="footer.linkedinLabel">LinkedIn</dt>
+<dd>
+<span data-i18n="footer.linkedinName">Coşkun Şamlıoğlu</span>
+<a href="https://www.linkedin.com/in/coskunsamlioglu/"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="View Coşkun Şamlıoğlu's LinkedIn profile; opens in a new tab"
+   data-i18n="footer.linkedinCta">
+View Profile →
+</a>
+</dd>
+</div>
+<div>
+<dt data-i18n="footer.locationLabel">Location</dt>
+<dd data-i18n="footer.location">Türkiye</dd>
+</div>
+</dl>
+</address>
+
+</div>
+
+<div class="footer-bottom">
+<p><span data-i18n="footer.copyright"></span>© 2026 ELITERA. All Rights Reserved.</span></p>
+<p data-i18n="footer.disclaimer">ELITERA is the registered executive investment and strategic advisory brand of Coşkun Şamlıoğlu.</p>
+</div>
+
+</div>
+</footer>
+
+<script src="assets/js/i18n.js"></script>
 <script src="assets/js/app.js"></script>
 </body>
 </html>

@@ -30,54 +30,38 @@
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
 <link rel="stylesheet" href="assets/css/animations.css">
-<style>
-.language-switcher {
-    display: flex;
-    gap: var(--space-10);
-    align-items: center;
-    margin-left: auto;
-    margin-right: var(--space-20);
-}
-
-.language-switcher button {
-    background: none;
-    border: none;
-    padding: var(--space-5) var(--space-10);
-    font-size: var(--fs-14);
-    font-weight: var(--fw500);
-    color: var(--text);
-    cursor: pointer;
-    transition: color var(--transition);
-    font-family: var(--font-body);
-}
-
-.language-switcher button:hover,
-.language-switcher button:focus-visible {
-    color: var(--gold);
-    outline: none;
-}
-
-.language-switcher button.active {
-    color: var(--gold);
-    font-weight: var(--fw600);
-}
-
-.language-switcher-separator {
-    color: var(--border);
-    font-weight: var(--fw300);
-}
-
-@media (max-width: 767px) {
-    .language-switcher {
-        margin-right: var(--space-10);
+<link rel="stylesheet" href="assets/css/language-switcher.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Coşkun Şamlıoğlu",
+  "url": "https://coskunsamlioglu.com.tr",
+  "jobTitle": "Executive Investment Strategist",
+  "description": "Founder of ELITERA Executive Investment Platform",
+  "sameAs": [
+    "https://www.linkedin.com/in/coskunsamlioglu/"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "Executive Contact",
+    "email": "coskun@coskunsamlioglu.com.tr",
+    "telephone": "+90-533-693-93-80"
+  },
+  "organization": {
+    "@type": "Organization",
+    "name": "ELITERA",
+    "url": "https://coskunsamlioglu.com.tr",
+    "description": "Executive Investment Platform for strategic investments, commercial real estate, and international business development",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "Executive Contact",
+      "email": "coskun@coskunsamlioglu.com.tr",
+      "telephone": "+90-533-693-93-80"
     }
-
-    .language-switcher button {
-        padding: var(--space-5) var(--space-8);
-        font-size: var(--fs-12);
-    }
+  }
 }
-</style>
+</script>
 </head>
 <body>
 
@@ -154,9 +138,11 @@ business partners through strategic investment advisory and commercial real esta
 </div>
 
 <div class="hero-right">
-<div class="hero-image">
-<img src="assets/images/profile/coskun-samlioglu.png" alt="Coşkun Şamlıoğlu">
-</div>
+    <div class="hero-image">
+        <img
+            src="assets/images/profile/coskun-samlioglu.webp"
+            alt="Coşkun Şamlıoğlu">
+    </div>
 </div>
 
 </div>
@@ -554,7 +540,7 @@ View Profile →
 </div>
 </footer>
 
-<script src="assets/js/i18n.js"></script>
-<script src="assets/js/app.js"></script>
+<script defer src="assets/js/i18n.js"></script>
+<script defer src="assets/js/app.js"></script>
 </body>
 </html>

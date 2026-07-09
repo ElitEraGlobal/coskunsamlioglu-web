@@ -96,7 +96,7 @@ Version: 1.0
                 closeMenu();
             }
         }, 250);
-    });
+    }, { passive: true });
 
     // ===========================
     // SMOOTH SCROLL BEHAVIOR
