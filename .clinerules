@@ -1,0 +1,403 @@
+# ==========================================================
+# ELITERA Executive Portfolio
+# AI Development Standard
+# Version: 1.0
+# ==========================================================
+
+## PROJECT
+
+This repository is the official Executive Portfolio of
+Coşkun Şamlıoğlu.
+
+The website represents:
+
+ELITERA
+
+Executive Investment Platform
+
+Founder:
+Coşkun Şamlıoğlu
+
+The website is NOT:
+
+- a real estate listing website
+- a startup landing page
+- a marketing funnel
+- an agency website
+- a broker catalogue
+
+The website MUST always reflect an executive investment advisory brand.
+
+
+==========================================================
+DESIGN PHILOSOPHY
+==========================================================
+
+Every change must preserve these principles.
+
+Executive
+
+Premium
+
+Minimal
+
+Elegant
+
+Timeless
+
+Luxury
+
+Corporate
+
+Professional
+
+Confident
+
+Calm
+
+Avoid:
+
+Flashy
+
+Aggressive
+
+Startup style
+
+Overdesigned UI
+
+Marketing hype
+
+Bright gradients
+
+Large animations
+
+Rounded childish UI
+
+
+==========================================================
+VISUAL IDENTITY
+==========================================================
+
+Use existing design language.
+
+Never redesign existing sections unless explicitly requested.
+
+Reuse existing:
+
+Typography
+
+Spacing
+
+Grid
+
+Cards
+
+Buttons
+
+Colors
+
+Containers
+
+Shadows
+
+Radius
+
+Transitions
+
+
+==========================================================
+HTML RULES
+==========================================================
+
+Always use semantic HTML.
+
+Prefer:
+
+section
+
+article
+
+header
+
+footer
+
+nav
+
+main
+
+Avoid unnecessary wrappers.
+
+Do not increase DOM depth without reason.
+
+Maintain accessibility.
+
+Every interactive element must be keyboard accessible.
+
+Preserve heading hierarchy.
+
+Never break page structure.
+
+
+==========================================================
+CSS RULES
+==========================================================
+
+Never duplicate CSS.
+
+Reuse existing classes.
+
+Reuse variables.
+
+Reuse spacing scale.
+
+Reuse colors.
+
+Prefer:
+
+existing utility classes
+
+existing components
+
+existing grid
+
+Do not introduce a new card system.
+
+Do not introduce a new button system.
+
+Do not create duplicate typography.
+
+Prefer CSS variables.
+
+Keep CSS modular.
+
+Avoid large selectors.
+
+Respect:
+
+prefers-reduced-motion
+
+focus-visible
+
+Desktop First.
+
+Responsive:
+
+Desktop
+
+Tablet
+
+Mobile
+
+
+==========================================================
+RESPONSIVE
+==========================================================
+
+Desktop:
+3 columns
+
+Tablet:
+2 columns
+
+Mobile:
+1 column
+
+No horizontal scrolling.
+
+No layout breaks.
+
+No overflow.
+
+
+==========================================================
+COMPONENT REUSE
+==========================================================
+
+Always reuse:
+
+solution-card
+
+solutions-grid
+
+container
+
+section-intro
+
+hero-tag
+
+buttons
+
+cards
+
+spacing
+
+Only create new classes if absolutely necessary.
+
+
+==========================================================
+BACKGROUND RHYTHM
+==========================================================
+
+The page should have visual rhythm.
+
+Preferred sequence:
+
+White
+
+Light Gray
+
+White
+
+Light Gray
+
+White
+
+Very Light Navy
+
+White
+
+Dark Navy Footer
+
+Avoid long continuous white sections.
+
+
+==========================================================
+CONTENT STYLE
+==========================================================
+
+Professional.
+
+Clear.
+
+Confident.
+
+Executive.
+
+Simple.
+
+Never exaggerate.
+
+Never use hype.
+
+Build credibility before selling.
+
+
+==========================================================
+ANIMATIONS
+==========================================================
+
+Keep animations subtle.
+
+Small hover elevation.
+
+Small shadow increase.
+
+Small transitions.
+
+Never use excessive motion.
+
+Respect prefers-reduced-motion.
+
+
+==========================================================
+PERFORMANCE
+==========================================================
+
+Keep CSS lightweight.
+
+Keep HTML semantic.
+
+Avoid unnecessary JS.
+
+Prefer CSS over JavaScript.
+
+Do not introduce libraries unless required.
+
+
+==========================================================
+TOKEN OPTIMIZATION
+==========================================================
+
+Read only required files.
+
+Never scan the entire repository unless explicitly requested.
+
+Prefer targeted file reading.
+
+Avoid unnecessary searches.
+
+Minimize token usage.
+
+Keep implementation focused.
+
+
+==========================================================
+SEO
+==========================================================
+
+Preserve semantic headings.
+
+Use meaningful section IDs.
+
+Use accessible labels.
+
+Do not remove existing SEO elements.
+
+
+==========================================================
+WORKFLOW
+==========================================================
+
+Before implementation:
+
+Understand the task.
+
+Explain the implementation plan.
+
+Wait for approval if requested.
+
+After implementation:
+
+Summarize changes.
+
+Update TASKS.md when a milestone is completed.
+
+Never commit automatically.
+
+Never push automatically.
+
+
+==========================================================
+PROTECTED ARCHITECTURE
+==========================================================
+
+Do NOT redesign existing sections.
+
+Do NOT rename existing CSS classes.
+
+Do NOT remove existing reusable components.
+
+Do NOT replace existing layout systems.
+
+Do NOT introduce frameworks.
+
+Do NOT modify unrelated code.
+
+Keep changes isolated.
+
+
+==========================================================
+ELITERA STANDARD
+==========================================================
+
+Every modification should make the website look as if it
+was designed for international investors, CEOs,
+family offices and institutional partners.
+
+If uncertain,
+
+choose the more elegant,
+
+simpler,
+
+more premium solution.

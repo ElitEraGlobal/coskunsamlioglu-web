@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+Disallow: /uploads/
+Disallow: /.git/
+Disallow: /.vscode/
+Disallow: /.agents/
+Disallow: /assets/documents/
+
+Sitemap: https://coskunsamlioglu.com.tr/sitemap.xml

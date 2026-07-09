@@ -1,0 +1,196 @@
+{
+  "meta": {
+    "language": "tr",
+    "direction": "ltr"
+  },
+  "header": {
+    "home": "Anasayfa",
+    "about": "Hakkında",
+    "solutions": "Çözümler",
+    "elitera": "ELITERA",
+    "projects": "Projeler",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "tag": "ELITERA Kurucusu",
+    "title": "Sermayeyi<br>Fırsatla<br>Birleştirmek.",
+    "service1": "Stratejik Yatırımlar",
+    "service2": "Ticari Gayrimenkul",
+    "service3": "İş Geliştirme",
+    "service4": "Sınır Ötesi Ortaklıklar",
+    "description": "Bağımsız İcra Kurulu Yatırım Stratejisti olarak yerli yatırımcılar, Körfez yatırımcıları, Orta Doğu yatırımcıları, Avrupa yatırımcıları ve uluslararası iş ortaklarını stratejik yatırım danışmanlığı ve ticari gayrimenkul aracılığıyla birleştiriyorum.",
+    "cta1": "Toplantı Planlayın",
+    "cta2": "ELITERA'yı Keşfedin"
+  },
+  "about": {
+    "heading": "Hakkında",
+    "description": "Yatırımcılar, işletme sahipleri ve kurumların yüksek değerli fırsatları belirlemelerine, değerlendirmelerine ve uygulamalarına yardımcı oluyorum. Çalışmalarım ticari gayrimenkul, stratejik yatırımlar, iş geliştirme ve uluslararası işbirliğini tek, bağımsız danışmanlık modeli altında birleştirmektedir."
+  },
+  "solutions": {
+    "heading": "Çözdüğümüz Sorunlar",
+    "card1": {
+      "title": "Stratejik Yatırımlar",
+      "description": "Uzun vadeli değeri olan ölçeklenebilir yatırım fırsatlarını belirleme."
+    },
+    "card2": {
+      "title": "Ticari Gayrimenkul",
+      "description": "Endüstriyel, lojistik, otelcilik ve karma kullanımlı yatırım danışmanlığı."
+    },
+    "card3": {
+      "title": "İş Geliştirme",
+      "description": "Büyümeyi hızlandıran ve pazar genişlemesini destekleyen ortaklıklar oluşturma."
+    },
+    "card4": {
+      "title": "Yatırım Eşleştirmesi",
+      "description": "Nitelikli yatırımcıları nitelikli fırsatlarla birleştirme."
+    },
+    "card5": {
+      "title": "Uluslararası Ticaret",
+      "description": "Sınır ötesi ticari ilişkiler ve genişlemeyi destekleme."
+    },
+    "card6": {
+      "title": "Kurumsal Danışmanlık",
+      "description": "Finans, hukuki koordinasyon ve proje yürütme alanlarında stratejik rehberlik."
+    }
+  },
+  "expertise": {
+    "tag": "Temel Yetkinlikler",
+    "heading": "İcra Kurulu Uzmanlığı",
+    "description": "Stratejik yatırımlar, ticari gayrimenkul, uluslararası iş geliştirme ve icra kurulu danışmanlığı alanlarında derin deneyim.",
+    "card1": {
+      "title": "İcra Kurulu Liderliği",
+      "description": "Karmaşık yatırımlar, ortaklıklar ve kurumsal ilişkiler arasında stratejik vizyon ve karar alma."
+    },
+    "card2": {
+      "title": "Sistem Mühendisliği",
+      "description": "Sermayeyi, varlıkları ve fırsatları birleştiren entegre platformlar ve operasyonel çerçeveler oluşturma."
+    },
+    "card3": {
+      "title": "Endüstriyel Dönüşüm",
+      "description": "Endüstriyel modernizasyon, lojistik optimizasyonu ve tedarik zinciri geliştirme için stratejik danışmanlık."
+    },
+    "card4": {
+      "title": "Stratejik Yatırımlar",
+      "description": "Sürdürülebilir getiriler ile yüksek değerli yatırım fırsatlarını belirleme, değerlendirme ve uygulama."
+    },
+    "card5": {
+      "title": "Ticari Gayrimenkul",
+      "description": "Endüstriyel, lojistik, otelcilik ve karma kullanımlı varlık stratejileri ve değerlemeleri alanında danışmanlık."
+    },
+    "card6": {
+      "title": "Uluslararası İş Geliştirme",
+      "description": "Kurumsal müşteriler için sınır ötesi ortaklıklar, pazar genişlemesi ve uluslararası ilişki kurma."
+    }
+  },
+  "network": {
+    "tag": "Ağ & Ekosistem",
+    "heading": "Güvenilir Ağ",
+    "description": "Küresel pazarlar, stratejik yatırımlar, ticari gayrimenkul ve uluslararası iş geliştirme alanlarında güvenilir ilişkiler kurma.",
+    "note": "<strong>Pazarlar ve Kurumlar Arasında Deneyim</strong> — Logolar, profesyonel ağımla ve deneyimimle ilgili endüstrileri ve pazar ekosistemlerini temsil etmektedir. Müşteri veya onay olarak sunulmamaktadır."
+  },
+  "elitera": {
+    "tag": "ELITERA Platformu",
+    "heading": "Aracılığın Ötesinde.<br>Stratejik Değer Oluşturma.",
+    "description": "ELITERA, sermayeyi, stratejik varlıkları, ticari gayrimenkul ve uluslararası iş fırsatlarını güvenilir ortaklıklar aracılığıyla birleştiren bağımsız bir icra kurulu yatırım platformudur.",
+    "differenceHeading": "ELITERA'yı Farklı Kılan Nedir?",
+    "differencePara1": "ELITERA geleneksel bir aracı kurum değildir. Nitelikli yatırımcıları nitelikli fırsatlarla bağımsız görüş, güvenilir ilişkiler ve disiplinli uygulama aracılığıyla birleştirmek için tasarlanmış stratejik bir yatırım ekosistemidir.",
+    "differencePara2": "Sermayeyi, varlıkları ve iş uzmanlığını tek bir odaklanmış platforma getirerek, ELITERA geleneksel bir işlemin kapsamının ötesinde uzun vadeli stratejik değer yaratır.",
+    "cta": "Konuşma Başlatın",
+    "feature1": {
+      "title": "Yatırım Danışmanlığı",
+      "description": "Yüksek değerli yatırım fırsatlarını değerlendirme ve uygulama için bağımsız rehberlik."
+    },
+    "feature2": {
+      "title": "Ticari Gayrimenkul",
+      "description": "Endüstriyel, lojistik, otelcilik ve karma kullanımlı varlıklara stratejik erişim."
+    },
+    "feature3": {
+      "title": "İş Geliştirme",
+      "description": "Sürdürülebilir büyüme ve pazar genişlemesini destekleyen ortaklık odaklı stratejiler."
+    },
+    "feature4": {
+      "title": "Uluslararası Ortaklıklar",
+      "description": "Yatırımcıları, kurumları ve fırsatları birleştiren güvenilir sınır ötesi ilişkiler."
+    }
+  },
+  "projects": {
+    "tag": "Seçilmiş İnisiyatifler",
+    "heading": "Stratejik Projeler",
+    "description": "ELITERA'nın ticari gayrimenkul, endüstriyel geliştirme, lojistik ve uluslararası ortaklıklar alanında stratejik yatırım vizyonunu gösteren temsili inisiyatifler.",
+    "project1": {
+      "category": "Ticari Gayrimenkul",
+      "title": "Yüksek Değerli Varlık Stratejileri",
+      "description": "Sürdürülebilir, uzun vadeli değer için tasarlanmış ticari varlıkların stratejik değerlendirilmesi ve konumlandırılması.",
+      "cta": "Daha Fazla Bilgi"
+    },
+    "project2": {
+      "category": "Endüstriyel Yatırımlar",
+      "title": "Endüstri Liderliğinde Büyüme Platformları",
+      "description": "Endüstriyel kapasiteyi, operasyonel gücü ve ölçeklenebilir büyümeyi birleştiren yatırım fırsatları.",
+      "cta": "Daha Fazla Bilgi"
+    },
+    "project3": {
+      "category": "Soğuk Zincir & Lojistik",
+      "title": "Entegre Tedarik Altyapısı",
+      "description": "Esnek lojistik, depolama ve dağıtım ağlarını destekleyen stratejik altyapı inisiyatifleri."
+    },
+    "project4": {
+      "category": "İş Geliştirme",
+      "title": "Pazar Genişlemesi & İttifaklar",
+      "description": "Yeni pazarlar, ticari ortaklıklar ve paylaşılan değer etrafında inşa edilen icra kurulu liderliğindeki büyüme inisiyatifleri.",
+      "cta": "Daha Fazla Bilgi"
+    },
+    "project5": {
+      "category": "Uluslararası Ortaklıklar",
+      "title": "Sınır Ötesi Fırsat Ağları",
+      "description": "Nitelikli sermayeyi güvenilir bölgesel fırsatlarla birleştiren güvenilir uluslararası ilişkiler.",
+      "cta": "Daha Fazla Bilgi"
+    },
+    "project6": {
+      "category": "Stratejik Danışmanlık",
+      "title": "İcra Kurulu Karar Desteği",
+      "description": "Karmaşık yatırımlar, ortaklıklar ve yüksek değerli iş kararları için bağımsız stratejik rehberlik.",
+      "cta": "Daha Fazla Bilgi"
+    }
+  },
+  "contact": {
+    "tag": "İcra Kurulu İletişim",
+    "heading": "Birlikte Stratejik<br>Değer Oluşturalım",
+    "description": "ELITERA, stratejik yatırımlar, ticari gayrimenkul, uluslararası ortaklıklar ve iş geliştirme konularında gizli tartışmalara açıktır. Her konuşma gizlilik, netlik ve icra kurulu perspektifiyle ele alınır.",
+    "emailLabel": "İcra Kurulu E-postası",
+    "phoneLabel": "Doğrudan Telefon",
+    "linkedinLabel": "LinkedIn Profili",
+    "whatsappLabel": "İş WhatsApp",
+    "locationLabel": "Merkez",
+    "location": "Türkiye",
+    "linkedinName": "Coşkun Şamlıoğlu",
+    "linkedinCta": "Profili Görüntüle →",
+    "cardTag": "Özel & Gizli",
+    "cardHeading": "Stratejik Toplantı Planlayın",
+    "cardTopic1": "İcra Kurulu Danışmanlığı",
+    "cardTopic2": "Yatırım Fırsatları",
+    "cardTopic3": "Sınır Ötesi Ortaklıklar",
+    "cardCta": "Stratejik Toplantı Planlayın"
+  },
+  "footer": {
+    "copyright": "© 2026 ELITERA. Tüm Hakları Saklıdır.",
+    "brand": "ELITERA",
+    "tagline": "Aracılığın Ötesinde Stratejik Değer Oluşturma.",
+    "description1": "ELITERA, Coşkun Şamlıoğlu tarafından kurulan icra kurulu yatırım ve stratejik danışmanlık markasıdır.",
+    "description2": "Marka, ticari gayrimenkul, stratejik yatırımlar, uluslararası ortaklıklar ve iş geliştirmeye odaklanmaktadır.",
+    "founderLabel": "Kurucu",
+    "founderName": "Coşkun Şamlıoğlu",
+    "founderTitle": "İcra Kurulu Yatırım Stratejisti",
+    "navTitle": "Navigasyon",
+    "contactTitle": "İcra Kurulu İletişim",
+    "emailLabel": "İcra Kurulu E-postası",
+    "whatsappLabel": "İş WhatsApp",
+    "phoneLabel": "Doğrudan Telefon",
+    "linkedinLabel": "LinkedIn",
+    "linkedinName": "Coşkun Şamlıoğlu",
+    "linkedinCta": "Profili Görüntüle →",
+    "locationLabel": "Konum",
+    "location": "Türkiye",
+    "disclaimer": "ELITERA, Coşkun Şamlıoğlu'nun tescilli icra kurulu yatırım ve stratejik danışmanlık markasıdır."
+  }
+}

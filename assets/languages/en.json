@@ -1,0 +1,197 @@
+{
+  "meta": {
+    "language": "en",
+    "direction": "ltr"
+  },
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "solutions": "Solutions",
+    "elitera": "ELITERA",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tag": "Founder of ELITERA",
+    "title": "Connecting<br>Capital with<br>Opportunity.",
+    "service1": "Strategic Investments",
+    "service2": "Commercial Real Estate",
+    "service3": "Business Development",
+    "service4": "Cross‑Border Partnerships",
+    "description": "Independent Executive Investment Strategist connecting domestic investors, Gulf investors, Middle East investors, European investors and international business partners through strategic investment advisory and commercial real estate.",
+    "cta1": "Schedule a Meeting",
+    "cta2": "Discover ELITERA"
+  },
+  "about": {
+    "heading": "About",
+    "description": "I help investors, business owners and institutions identify, evaluate and execute high-value opportunities. My work combines commercial real estate, strategic investments, business development and international cooperation under a single, independent advisory model."
+  },
+  "solutions": {
+    "heading": "What We Solve",
+    "card1": {
+      "title": "Strategic Investments",
+      "description": "Identifying scalable investment opportunities with long-term value."
+    },
+    "card2": {
+      "title": "Commercial Real Estate",
+      "description": "Industrial, logistics, hospitality and mixed-use investment advisory."
+    },
+    "card3": {
+      "title": "Business Development",
+      "description": "Creating partnerships that accelerate growth and market expansion."
+    },
+    "card4": {
+      "title": "Investment Matching",
+      "description": "Connecting qualified investors with qualified opportunities."
+    },
+    "card5": {
+      "title": "International Trade",
+      "description": "Supporting cross-border commercial relationships and expansion."
+    },
+    "card6": {
+      "title": "Corporate Advisory",
+      "description": "Strategic guidance across finance, legal coordination and project execution."
+    }
+  },
+  "expertise": {
+    "tag": "Core Competencies",
+    "heading": "Executive Expertise",
+    "description": "Deep experience across strategic investments, commercial real estate, international business development and executive advisory.",
+    "card1": {
+      "title": "Executive Leadership",
+      "description": "Strategic vision and decision-making across complex investments, partnerships and institutional relationships."
+    },
+    "card2": {
+      "title": "Systems Engineering",
+      "description": "Building integrated platforms and operational frameworks that connect capital, assets and opportunities."
+    },
+    "card3": {
+      "title": "Industrial Transformation",
+      "description": "Strategic advisory for industrial modernization, logistics optimization and supply chain development."
+    },
+    "card4": {
+      "title": "Strategic Investments",
+      "description": "Identifying, evaluating and executing high-value investment opportunities with sustainable returns."
+    },
+    "card5": {
+      "title": "Commercial Real Estate",
+      "description": "Advisory across industrial, logistics, hospitality and mixed-use asset strategies and valuations."
+    },
+    "card6": {
+      "title": "International Business Development",
+      "description": "Cross-border partnerships, market expansion and international relationship building for institutional clients."
+    }
+  },
+  "network": {
+    "tag": "Network & Ecosystem",
+    "heading": "Trusted Network",
+    "description": "Building trusted relationships across global markets, strategic investments, commercial real estate and international business development.",
+    "note": "<strong>Experience Across Markets & Institutions</strong> — Logos represent industries and market ecosystems relevant to my professional network and experience. They are not presented as clients or endorsements."
+  },
+  "elitera": {
+    "tag": "The ELITERA Platform",
+    "heading": "Beyond Brokerage.<br>Building Strategic Value.",
+    "description": "ELITERA is an independent executive investment platform connecting capital, strategic assets, commercial real estate and international business opportunities through trusted partnerships.",
+    "differenceHeading": "What Makes ELITERA Different?",
+    "differencePara1": "ELITERA is not a traditional brokerage. It is a strategic investment ecosystem designed to connect qualified investors with qualified opportunities through independent insight, trusted relationships and disciplined execution.",
+    "differencePara2": "By bringing capital, assets and business expertise into one focused platform, ELITERA creates long-term strategic value beyond the scope of a conventional transaction.",
+    "cta": "Start a Conversation",
+    "feature1": {
+      "title": "Investment Advisory",
+      "description": "Independent guidance for evaluating and executing high-value investment opportunities."
+    },
+    "feature2": {
+      "title": "Commercial Real Estate",
+      "description": "Strategic access to industrial, logistics, hospitality and mixed-use assets."
+    },
+    "feature3": {
+      "title": "Business Development",
+      "description": "Partnership-led strategies that support sustainable growth and market expansion."
+    },
+    "feature4": {
+      "title": "International Partnerships",
+      "description": "Trusted cross-border relationships connecting investors, institutions and opportunities."
+    }
+  },
+  "projects": {
+    "tag": "Selected Initiatives",
+    "heading": "Strategic Projects",
+    "description": "Representative initiatives that demonstrate ELITERA's strategic investment vision across commercial real estate, industrial development, logistics and international partnerships.",
+    "project1": {
+      "category": "Commercial Real Estate",
+      "title": "High-Value Asset Strategies",
+      "description": "Strategic evaluation and positioning of commercial assets designed for sustainable, long-term value.",
+      "cta": "Learn More"
+    },
+    "project2": {
+      "category": "Industrial Investments",
+      "title": "Industry-Led Growth Platforms",
+      "description": "Investment opportunities connecting industrial capacity, operational strength and scalable growth.",
+      "cta": "Learn More"
+    },
+    "project3": {
+      "category": "Cold Chain & Logistics",
+      "title": "Integrated Supply Infrastructure",
+      "description": "Strategic infrastructure initiatives supporting resilient logistics, storage and distribution networks.",
+      "cta": "Learn More"
+    },
+    "project4": {
+      "category": "Business Development",
+      "title": "Market Expansion & Alliances",
+      "description": "Executive-led growth initiatives built around new markets, commercial partnerships and shared value.",
+      "cta": "Learn More"
+    },
+    "project5": {
+      "category": "International Partnerships",
+      "title": "Cross-Border Opportunity Networks",
+      "description": "Trusted international relationships connecting qualified capital with credible regional opportunities.",
+      "cta": "Learn More"
+    },
+    "project6": {
+      "category": "Strategic Advisory",
+      "title": "Executive Decision Support",
+      "description": "Independent strategic guidance for complex investments, partnerships and high-value business decisions.",
+      "cta": "Learn More"
+    }
+  },
+  "contact": {
+    "tag": "Executive Contact",
+    "heading": "Let's Build Strategic<br>Value Together",
+    "description": "ELITERA welcomes confidential discussions regarding strategic investments, commercial real estate, international partnerships and business development. Every conversation is approached with discretion, clarity and an executive perspective.",
+    "emailLabel": "Executive Email",
+    "phoneLabel": "Direct Phone",
+    "linkedinLabel": "LinkedIn Profile",
+    "whatsappLabel": "Business WhatsApp",
+    "locationLabel": "Headquarters",
+    "location": "Türkiye",
+    "linkedinName": "Coşkun Şamlıoğlu",
+    "linkedinCta": "View Profile →",
+    "cardTag": "Private & Confidential",
+    "cardHeading": "Schedule a Strategic Meeting",
+    "cardTopic1": "Executive Consultation",
+    "cardTopic2": "Investment Opportunities",
+    "cardTopic3": "Cross-border Partnerships",
+    "cardCta": "Schedule a Strategic Meeting"
+  },
+  "footer": {
+    "copyright": "© 2026 ELITERA. All Rights Reserved.",
+    "brand": "ELITERA",
+    "tagline": "Building Strategic Value Beyond Brokerage.",
+    "description1": "ELITERA is the executive investment and strategic advisory brand founded by Coşkun Şamlıoğlu.",
+    "description2": "The brand focuses on commercial real estate, strategic investments, international partnerships and business development.",
+    "founderLabel": "Founder",
+    "founderName": "Coşkun Şamlıoğlu",
+    "founderTitle": "Executive Investment Strategist",
+    "navTitle": "Navigation",
+    "contactTitle": "Executive Contact",
+    "emailLabel": "Executive Email",
+    "whatsappLabel": "Business WhatsApp",
+    "phoneLabel": "Direct Phone",
+    "linkedinLabel": "LinkedIn",
+    "linkedinName": "Coşkun Şamlıoğlu",
+    "linkedinCta": "View Profile →",
+    "locationLabel": "Location",
+    "location": "Türkiye",
+    "disclaimer": "ELITERA is the registered executive investment and strategic advisory brand of Coşkun Şamlıoğlu."
+  }
+}
